@@ -14,4 +14,16 @@ public class Food {
     this.name = name;
     this.calories = calories;
   }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public double getCalories() {
+    return calories;
+  }
 }
