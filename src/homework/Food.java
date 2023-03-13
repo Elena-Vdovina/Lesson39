@@ -6,4 +6,12 @@ public class Food {
 //   поле "калорийность"
 //   конструктор, геттеры, сеттеры
 //   метод "употребить еду" с каким-нибудь выводом
+
+  private String name;
+  final private double calories;
+
+  public Food(String name, double calories) {
+    this.name = name;
+    this.calories = calories;
+  }
 }
