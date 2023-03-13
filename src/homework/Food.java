@@ -26,4 +26,8 @@ public class Food {
   public double getCalories() {
     return calories;
   }
+
+  public void eatFood(String name) {
+    System.out.printf("%s это вкусно!%n", name);
+  }
 }
