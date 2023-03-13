@@ -28,4 +28,19 @@ public class Drink extends Food {
     this.alcohol = alcohol;
   }
 
+  public void setGas(Gas gas) {
+    this.gas = gas;
+  }
+
+  public void setAlcohol(Alcohol alcohol) {
+    this.alcohol = alcohol;
+  }
+
+  public Gas getGas() {
+    return gas;
+  }
+
+  public Alcohol getAlcohol() {
+    return alcohol;
+  }
 }
